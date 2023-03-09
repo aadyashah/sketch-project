@@ -1,0 +1,25 @@
+body{
+    background-color:rgb(250, 90, 143);
+}
+h1{
+    background-color: rgb(240, 253, 117);
+    color: rgb(255, 255, 255);
+}
+#show_sketch{
+    float: right;
+}
+canvas{
+   border:5px solid white;
+   border-radius: 20px;
+   margin-top: 90px;
+   animation-name: canvas_animation;
+   animation-duration:4s;
+   animation-iteration-count: infinite;
+}
+@keyframes canvas_animation{
+    from{box-shadow:1px 1px 38px rgb(103, 93, 249) ;}
+    to{box-shadow: 1px 1px 38px rgb(235, 152, 217);}
+}
+#label ,#confidence{
+   font-size: 25px ;
+}
